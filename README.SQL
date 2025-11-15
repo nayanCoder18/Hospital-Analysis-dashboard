@@ -1,5 +1,6 @@
---use Hospital
+
 --exec sp_help doctor
+
 create view patient_info as
 select 
 	p.patient_id as patient_patient_id,
@@ -89,6 +90,7 @@ left join doctor as dr
 	on dr.doctor_id = a.doctor_id;
 
 --- medicin_info
+
 create view medicin_info as
 select 
 	m.medicine_id,
@@ -109,6 +111,7 @@ left join Supplier as s
 
 
 --- beds_info
+
 create view beds_info as
 select 
 	ro.room_id as room_id,
@@ -120,5 +123,4 @@ left join rooms as ro
 on ba.room_id = ro.room_id
 group by ro.room_type,ba.status,ro.room_id
 
-select * From [dbo].[Medical_Stock]
-select * from [dbo].[Supplier]
+
