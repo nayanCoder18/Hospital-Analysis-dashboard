@@ -1,4 +1,4 @@
-# ⭐ Hospital Analytics Dashboard 
+# ⭐ Hospital Analytics Dashboard (Excel | SQL | Power BI)  
 
 Hospitals generate large volumes of data related to patients, doctors, medicines, appointments, tests, and finance.
 The raw dataset provided had duplicates, missing values, inconsistent formatting, and no clear structure, making it difficult to generate meaningful insights or build a professional dashboard.
